@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Ninja Studio</title>
+    <script src="https://kit.fontawesome.com/f30dc76486.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----------------------------The Navbar - header of the page-->
+    <header id="head" class="flex-r flex-space-between-h">
+        <div class="flex-r flex-space-between-h">
+            <img src="images/logo.png" alt="">
+            <figcaption class="flex-c">
+                <span>Ninja</span>
+                <span>Studio</span>
+            </figcaption>
+        </div>
+        
+        <div id="head-bar">
+            <span> Favourites</span>
+            <span class="search-box">
+                <button class="custom-button-1"><i class="fa fa-search"></i></button>
+                <input type="text" name="search" placeholder="Search.." id="">
+                <button class="custom-button-1"><i class="fa fa-microphone"></i></button>
+            </span>
+            
+        </div>
+        <i class="fa fa-bell" style="margin-top:21px"></i>
+        <img src="images/profile-img.png" alt=""> 
+    </header>
+    <!--------------------------Navber end-->
+
+    <!-- Container for the whole content including main and aside -->
+    <div id="container" class="flex-r flex-space-between-h">
+        
+        <!-- main content  begins -->
+        <main>
+            
+            <section id="corousel-1" class="flex-r">
+                <div>
+                    <img src="images/song-corousel-2.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/song-corousel-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/song-corousel-3.jpg" alt="">
+                </div>
+            </section>
+            
+            <section id="latest-release" class="top-adjust">
+                <h3>Latest Release</h3>
+                <div id="latest-release-main" class="flex-r">
+                    <!----------------Complete Tile for latest release -->
+                    <div class="song-elaborate flex-r">
+                        <div class="song-elaborate-box">
+                            <img src="images/khalid-cover.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="title-control">
+                            <div class="flex-c align-vertical">
+                                <strong class="text">Young Dumb</strong>
+                                <span class="text">AUG 12 2017</span>
+                            </div>
+                            <div class="flex-c align-dropdown">
+                                <!-- <a href="#release-dropdown-menu-1" class="custom-href">
+                                    
+                                </a> -->
+                                <input type="checkbox" name="pop-out" id="pop-out">
+                                <label for="pop-out">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </label>
+                                <!---------------------Dropdown Menu upon clicking ... button --------------------------->
+                                <div class="drop-down-menu">
+                                    <ul>
+                                        <li><span><i class="fa fa-play"></i> Play</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus"></i> Queue</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus-square"></i> Add to Fav</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-info-circle"></i> Info</span></li>
+                                    </ul>
+                                </div>
+                                <span>4:14</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------Complete Tile for latest release -->
+                    <div class="song-elaborate flex-r">
+                        <div class="song-elaborate-box">
+                            <img src="images/khalid-cover.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="title-control">
+                            <div class="flex-c">
+                                <strong>Young Dumb</strong>
+                                <span>AUG 12 2017</span>
+                            </div>
+                            <div class="flex-c align-dropdown">
+                                <!-- <a href="#release-dropdown-menu-2" class="custom-href">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </a> -->
+                                <input type="checkbox" name="pop-out" id="pop-out-2">
+                                <label for="pop-out-2">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </label>
+                                <!---------------------Dropdown Menu upon clicking ... button --------------------------->
+                                <div  class="drop-down-menu">
+                                    <ul>
+                                        <li><span><i class="fa fa-play"></i> Play</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus"></i> Queue</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus-square"></i> Add to Fav</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-info-circle"></i> Info</span></li>
+                                    </ul>
+                                </div>
+                                <span>4:14</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------Complete Tile for latest release -->
+                    <div class="song-elaborate flex-r">
+                        <div class="song-elaborate-box">
+                            <img src="images/khalid-cover.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="title-control">
+                            <div class="flex-c">
+                                <strong>Young Dumb</strong>
+                                <span>AUG 12 2017</span>
+                            </div>
+                            <div class="flex-c align-dropdown">
+                                <!-- <a href="#release-dropdown-menu-3" class="custom-href">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </a> -->
+                                <input type="checkbox" name="pop-out" id="pop-out-3">
+                                <label for="pop-out-3">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </label>
+                                <!---------------------Dropdown Menu upon clicking ... button --------------------------->
+                                <div  class="drop-down-menu">
+                                    <ul>
+                                        <li><span><i class="fa fa-play"></i> Play</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus"></i> Queue</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus-square"></i> Add to Fav</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-info-circle"></i> Info</span></li>
+                                    </ul>
+                                </div>
+                                <span>4:14</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------Complete Tile for latest release -->
+                    <div class="song-elaborate flex-r">
+                        <div class="song-elaborate-box">
+                            <img src="images/khalid-cover.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="title-control">
+                            <div class="flex-c">
+                                <strong>Young Dumb</strong>
+                                <span>AUG 12 2017</span>
+                            </div>
+                            <div class="flex-c align-dropdown">
+                                <!-- <a href="#release-dropdown-menu-4" class="custom-href">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </a> -->
+                                <input type="checkbox" name="pop-out" id="pop-out-4">
+                                <label for="pop-out-4">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </label>
+                                <!---------------------Dropdown Menu upon clicking ... button --------------------------->
+                                <div  class="drop-down-menu">
+                                    <ul>
+                                        <li><span><i class="fa fa-play"></i> Play</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus"></i> Queue</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-plus-square"></i> Add to Fav</span></li>
+                                        <hr>
+                                        <li><span><i class="fa fa-info-circle"></i> Info</span></li>
+                                    </ul>
+                                </div>
+                                <span>4:14</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Popular artist display -->
+            <section id="popular-artist" class="top-adjust">
+                <a href="artist.html"><h3>Popular Arstists</h3></a>
+                <div class="flex-r flex-space-between-h artist-parent">
+                    <!-- 6 Artists  -->
+                    <div class="flex-c artist">
+                        <div class="artist-image-box">
+                            <img src="images/ed-sheeran.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="centering">
+                            Ed Sheeran
+                        </div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="artist-image-box">
+                            <img src="images/ed-sheeran.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="centering">
+                            Ed Sheeran
+                        </div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="artist-image-box">
+                            <img src="images/ed-sheeran.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="centering">
+                            Ed Sheeran
+                        </div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="artist-image-box">
+                            <img src="images/ed-sheeran.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="centering">
+                            Ed Sheeran
+                        </div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="artist-image-box">
+                            <img src="images/ed-sheeran.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="centering">
+                            Ed Sheeran
+                        </div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="artist-image-box">
+                            <img src="images/ed-sheeran.jpg" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="centering">
+                            Ed Sheeran
+                        </div>
+                    </div>
+                    <!-- 6 artist Tags end -->
+                </div>
+            </section>
+
+            <!-- Basic categories -->
+            <section id="basic-music-categories" class="top-adjust">
+                <div class="flex-r flex-space-between-h stations-A">
+                    <div id="station-head">Stations</div>
+                    <div class="station-box">
+                            <img src="images/love.jpg" alt="">
+                            <span>Love</span>
+                    </div>
+                    <div class="station-box">
+                        <img src="images/rock-music.jpg" alt="">
+                        <span>Rock</span>
+                    </div>
+                    <div class="station-box">
+                        <img src="images/retro-music.jpg" alt="">
+                        <span>Retro</span>
+                    </div>
+                    <div class="station-box">
+                        <img src="images/pop-music.jpg" alt="">
+                        <span>Pop</span>
+                    </div>
+                    <div class="station-box">
+                        <img src="images/workout-music.jpg" alt="">
+                        <span>Workout</span>
+                    </div>
+                    <div class="station-box">
+                        <img src="images/chill-music.jpg" alt="">
+                        <span>Chill</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Popular categories  -->
+            <section id="popular-categories" class="flex-r flex-space-between-h top-adjust">
+                <div class="popular-category-box">
+                    <img src="images/party-music.jpg" alt="">
+                    <span>Party</span>
+                </div>
+                <div class="popular-category-box">
+                    <img src="images/electronic-music.jpg" alt="">
+                    <span>Electronic</span>
+                </div>
+                <div class="popular-category-box">
+                    <img src="images/road-music.jpg" alt="">
+                    <span>Road Trip</span>
+                </div>
+            </section>
+
+            <!-- latest english song section -->
+            <section class="latest-song-language top-adjust">
+                <h3>Latest English</h3>
+                <div class="flex-r flex-space-between-h artist-parent">
+                    <!-- 6 songs -->
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/closer-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Closer
+                        </div>
+                        <div>AUG 11, 2017</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/closer-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Closer
+                        </div>
+                        <div>AUG 11, 2017</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/closer-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Closer
+                        </div>
+                        <div>AUG 11, 2017</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/closer-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Closer
+                        </div>
+                        <div>AUG 11, 2017</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/closer-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Closer
+                        </div>
+                        <div>AUG 11, 2017</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/closer-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Closer
+                        </div>
+                        <div>AUG 11, 2017</div>
+                    </div>
+                    <!-- 6 artist info ends -->
+                </div>
+                
+            </section>
+
+            <!-- Latest Hindi Songs Section -->
+            <section class="latest-song-language top-adjust">
+                <h3>Latest Hindi</h3>
+                <div class="flex-r flex-space-between-h artist-parent">
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/sauda-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Sauda
+                        </div>
+                        <div>NOV 11, 2019</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/sauda-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Sauda
+                        </div>
+                        <div>NOV 11, 2019</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/sauda-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Sauda
+                        </div>
+                        <div>NOV 11, 2019</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/sauda-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Sauda
+                        </div>
+                        <div>NOV 11, 2019</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/sauda-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Sauda
+                        </div>
+                        <div>NOV 11, 2019</div>
+                    </div>
+                    <div class="flex-c artist">
+                        <div class="song-image-box">
+                            <img src="images/sauda-music.jpg" alt="">
+                        </div>
+                        <div>
+                            Sauda
+                        </div>
+                        <div>NOV 11, 2019</div>
+                    </div>
+                </div>
+            </section>
+
+        </main> 
+        <!-- main content ends -->
+
+        <!-- aside content begins (queue and playlist) -->
+        <!-- The whole aside is within a invisible scroll -->
+        <aside >
+            <div id="side-head" class="flex-r flex-space-between-h">
+                <h3>Queue</h3>
+                <div id="queue-dropdown">
+                    <input type="checkbox" id="checkbox_toggle">
+                    <label for="checkbox_toggle">Queue <i class="fa fa-caret-down"></i></label>
+                    <ul class="drop-down-menu-2">
+                        <li><a href="#">PlayLists</a></li>
+                        <hr>
+                        <li><a href="#">Favourite Songs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="list" class="flex-c">
+                <!-- 14 platlist songs  -->
+                <div class="flex-r ">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/closer-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+                <div class="flex-r top-adjust-2">
+                    <span class="playlist-number">01</span>
+                    <div class="playlist-image-box">
+                        <img src="Images/sauda-music.jpg" alt="">
+                    </div>
+                    <div class="flex-r flex-space-between-h playlist-details">
+                        <div class="flex-c">
+                            <span><strong>Mirage</strong></span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </aside>
+        
+    </div>
+
+    <!-- footer begins (music control & current song playing) -->
+    <footer class="foot">
+        <div class=" flex-r foot-main">
+            <div class="flex-r music_player">
+                <div class="flex-r music_details"> 
+                    <div class="music_image">
+                        <img src="images/khalid-cover.jpg" />
+                    </div>
+                    <div class="flex-c music_name">
+                        <span class="song_name">Young Dumb & Broke</span>
+                        <span class="artist_name">Khalid</span>
+                    </div>
+                    <div class="flex-r other">
+                        <input type="checkbox" id="musicFav1" />
+                        <label for="musicFav1"><span><i class="fa fa-heart"></i></span></label>
+                        <span><i class="fa fa-ban"></i></span>
+                    </div>
+                </div>
+                <div class="flex-c music_controls">
+                    <div class="flex-r music_buttons">
+                        <span><i class="fa fa-random"></i></span>
+                        <span><i class="fa fa-step-backward"></i></span>
+                        <input type="checkbox" id="play_pause" />
+                        <label id="play" for="play_pause"><span><i class="fa fa-2x fa-play-circle"></i></span></label>
+                        <label id="pause" for="play_pause"><span><i class="fa fa-2x fa-pause-circle"></i></span></label>
+                        <span><i class="fa fa-step-forward"></i></span>
+                        <span><i class="fa fa-repeat"></i></span>
+                    </div>
+                    <div class="flex-r music_progress">
+                        <span style="margin-right: 10px;">3.40</span>
+                        <div class="progress_bar1">
+                            <div class="point"></div>
+                        </div>
+                        <div class="progress_bar2">
+        
+                        </div>
+                        <span style="margin-left: 10px;">4.50</span>
+                    </div>
+                </div>
+                <div class="flex-r volume_controls">
+                    <span style="margin-right: 8px;"><i class="fa fa-sliders-h"></i></span>
+                    <span style="margin-right: 8px;"><i class="fa fa-volume-up"></i></span>
+                    <div class="progress_bar1">
+                        <div class="point"></div>
+                    </div>
+                    <div class="progress_bar2" style="margin-right: 8px;">
+        
+                    </div>
+                    <span><i class="fa fa-expand-alt"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+    
+</body>
+</html>

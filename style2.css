@@ -1,0 +1,168 @@
+/* Majority of the css is present in the previous CSS file, all the additions related to artist page are done in here */
+
+/* artist description  */
+#artist-description{
+    height:40vh;
+    width:100%;
+    background-color: #192A56;
+    
+}
+.artist-description-image{
+    height:100%;
+    width:38%;
+}
+.artist-description-image img{
+    height:100%;
+    width:100%;
+}
+.artist-description-content{
+    width:62%;
+    margin-top:7%;
+    margin-bottom:7%;
+    margin-left:2%;
+    margin-right: 2%;
+    color:#fff0f0;
+    font-size: 0.7rem;
+}
+.artist-description-content h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:azure;
+    font-size: 1rem;
+}
+.followers{
+    font-size: 0.6rem;
+
+}
+.color-change{
+    color:azure;
+}
+.custom-b{
+    padding: 5px 10px;
+    background: linear-gradient(45deg, #890bb3, #c1209c);
+    width: 107px;
+    border: none;
+    color: azure;
+    margin-right: 18px;
+    margin-bottom: 5px;
+}
+
+
+/* artist playlist css */
+#artist-playlist{
+    width:100%;
+    height:60vh;
+}
+.artist-song{
+    width:100%;
+    height:12%;
+    background-color: #1f1f41;
+    font-size: 0.8rem;
+}
+.artist-song-left{
+    width:122px;
+    margin-left: 7px;
+}
+.artist-song-number{
+    padding-top: 12%;
+}
+.artist-song-box{
+    width: 31%;
+    height: 80%;
+    padding-top: 4%;
+}
+.artist-song-box img{
+    width: 100%;
+    height: 100%;
+    
+}
+.artist-song-right{
+    margin-right: 13px;
+    width: 36px;
+    margin-top: 18px;
+}
+.top-adjust-3{
+    margin-top:2%;
+}
+
+/* aside  */
+/* similar artist */
+#similar-artist{
+    height:45vh;
+    width:100%;
+}
+#similar-artist-title{
+    height:10%;
+    width:100%;
+}
+.similar-artist-content{
+    height: 90%;
+    justify-content: space-between;
+}
+.similar-artist-nth{
+    height:30%;
+}
+.similar-artist-content-left{
+    width:75%;
+    height:100%;
+}
+.similar-artist-box{
+    width:39%;
+    height:100%;
+}
+.similar-artist-box img{
+    width:100%;
+    height:100%;
+}
+.similar-artist-songname{
+    justify-content: center;
+}
+.similar-artist-songname span strong{
+    font-size:0.7rem;
+
+}
+.similar-artist-songname span{
+    font-size: 0.6rem;
+}
+
+.similar-artist-content-right{
+    width:10%;
+}
+
+/* recently played  */
+#recently-played{
+    height:55vh;
+    width:100%;
+}
+.recently-played-main{
+    height:90%;
+    width:100%;
+}
+.nth-recently-played{
+    width:100%;
+    height:12%;
+}
+.nth-recently-played > span{
+    width: 5%;
+    font-size: 0.7rem;
+    margin-top: 5%;
+}
+.nth-recently-played .recently-played-image-box{
+    width:20%;
+    height:100%;
+}
+.nth-recently-played .recently-played-image-box img{
+    width:100%;
+    height:100%;
+}
+.recently-played-remaining{
+    width:65%;
+    height:100%;
+    margin-top: 3%;
+}
+.recently-played-remaining span strong{
+    font-size:0.8rem;
+}
+.recently-played-remaining span{
+    font-size: 0.7rem;
+}
